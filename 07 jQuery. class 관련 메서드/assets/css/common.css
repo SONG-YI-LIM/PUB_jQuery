@@ -37,23 +37,3 @@ table {border:0; border-collapse:collapse; border-spacing:0; width:100%}
 li {list-style:none}
 a {text-decoration:none}
 legend, hr, caption {display:none}
-
-/* input type */
-input[type=text],
-input[type=password] {border:1px solid #ccc; padding:9px 0 10px 10px; margin:0; box-sizing:border-box}
-select {padding:6px 0; border:1px solid #ccc; color:#444; margin:0}
-textarea {resize:none; padding:5px; line-height:18px; color:#444; border:1px solid #ccc; background:#fff}
-
-::-webkit-input-placeholder {color:#999}
-::-moz-placeholder {color:#999}
-:-ms-input-placeholder {color:#999}
-:-moz-placeholder {color:#999}
-
-input:read-only {background:#e8e8e8}
-input:-moz-read-only {background:#e8e8e8}
-
-/* skip nav */
-#skipNav {height:0}
-#skipNav dt {overflow:hidden; position:absolute !important; width:1px; height:1px}
-#skipNav dd a {overflow:hidden; display:block; position:absolute; top:-10000px; left:0; z-index:999999; width:100%; font-size:16px; text-align:center}
-#skipNav dd a.on {overflow:hidden; position:absolute; top:0; left:0; padding:15px 0; background:#272727; font-weight:bold; color:#fff}

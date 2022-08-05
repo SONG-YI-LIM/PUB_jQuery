@@ -1,22 +1,9 @@
 ﻿@charset "utf-8";
-/*>>>>>>>>>> 공통 <<<<<<<<<<*/
+.page-main > aside {position:fixed; top:0; left:-350px; width:350px; height:100%; background:rgba(0,0,0,0.8)}
+.page-main > aside ul {position:absolute; top:50px; left:114px}
+.page-main > aside button {display:block; position:absolute; top:150px; left:350px; width:52px; height:132px; background:rgba(0,0,0,0.8) url(../images/ico-arrow-right.png) no-repeat center top 20px/20px auto}
+.page-main > aside.open button {background-image:url("../images/ico-arrow-left.png")}
 
-/* 타이틀 */
-
-/* 버튼 */
-
-
-
-
-/*>>>>>>>>>> 페이지 <<<<<<<<<<*/
-
-/*** 페이지명1 ***/
-/* 페이지내 분할1 */
-
-/* 페이지내 분할2 */
-
-
-/*** 페이지명2 ***/
-/* 페이지내 분할1 */
-
-/* 페이지내 분할2 */
+/* css animate */
+.page-main > aside {transition:0.3s cubic-bezier(.06,1.95,.69,.6)}
+.page-main > aside.open {left:-70px}

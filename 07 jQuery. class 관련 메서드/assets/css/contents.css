@@ -5,5 +5,5 @@
 .page-main > aside.open button {background-image:url("../images/ico-arrow-left.png")}
 
 /* css animate */
-.page-main > aside {transition:0.3s cubic-bezier(.06,1.95,.69,.6)}
+.page-main > aside {transition:0.3s cubic-bezier(0.34, 1.56, 0.64, 1)}
 .page-main > aside.open {left:-70px}

@@ -12,11 +12,11 @@ $(function() {
 		$aside.toggleClass("open");
 		// $aside.stop().animate({left:"0px"}, $duration);
 		if($aside.hasClass("open")){
-			$aside.stop().animate({left:"-70px"}, $duration, "easeOutBack");
+			// $aside.stop().animate({left:"-70px"}, $duration, "easeOutBack");
 			$button.text("닫기");
 			// $button.find("img").attr("src", "../assets/images/ico-arrow-left.png");
 		}else{
-			$aside.stop().animate({left:"-350px"}, $duration, "easeInBack");
+			// $aside.stop().animate({left:"-350px"}, $duration, "easeInBack");
 			$button.text("열기");
 			// $button.find("img").attr("src", "../assets/images/ico-arrow-right.png");
 		}

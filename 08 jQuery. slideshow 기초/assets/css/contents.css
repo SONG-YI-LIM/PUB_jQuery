@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+.slideshow {position:relative; overflow:hidden; min-width:960px; height:465px}
+/* 최소 넓이가 960, 브라우저가 넓이가 800이라면 960, 브라우저 넓이가 1000이라면 1000 */
+/* 960 이하로는 줄지 않는다. */
+.slideshow img {display:none; position:absolute; left:50%; margin-left:-800px}
+/* 이미지가 바뀌는 과정에서 하나가 사라지고 하나가 나타날 때 살짝 겹치므로 이미지를 겹쳐놔야 한다. */
+/* transform:translateX(-50%) */
+
+사용자 설정에 따라서 스크립트는 끄고 보는 사용자가 있다.
